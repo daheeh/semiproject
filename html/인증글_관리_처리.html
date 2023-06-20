@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 페이지</title>
+    <link rel="stylesheet" href="css/nibble_main.css" />
+    <link rel="stylesheet" href="./css/인증글_관리_처리.css" />
+</head>
+<body>
+    <header></header>
+    <div class="signup">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+    </div>
+    <div class="logoandsearch">
+        <img src="./img/logo2.JPG" width="200" alt="이미지표시불가" />
+    </div>  
+    <!-- 헤더 아래 전체 영역 -->
+    <div class="container">
+        <!-- 헤더 아래 내용 margin padding -->
+        <div class="css">
+            <!-- 왼쪽 카테고리 박스 전체 -->
+            <div class="categorybox">
+                <!-- 카테고리 박스 큰 제목 -->
+                <div class="bigcategory">회원관리</div>
+                <!-- 카테고리 작은 제목 -->
+                <ul class="smallcategory">
+                    <li>회원 정보 수정</li>
+                    <li>경고 사유 관리</li>
+                    <li>회원 인증글 관리</li>
+                    <li>블랙 회원 관리</li>
+                </ul>
+            </div>
+            <!-- 메인 영역 -->
+            <div class="mainbox">
+                <!-- 메인 영역 큰 제목 -->
+                <div class="maintitle">
+                    <div class="maintitletext">
+                    <h2 class="mtt">인증글 관리</h2>
+                    </div>
+                    <span class="submtt"><b>홍길동</b>님이 작성하신 인증글입니다.</span>
+                </div>
+            <!-- 글 영역  -->
+            <div class="posting">
+                <!-- 글이랑 아래 버튼 포함영역 -->
+                <div class="board-and-button">
+                    <table class="board">
+                        <!-- 보드 내용 전체 영역  -->
+                        <tbody class="board-in">
+                            <!-- 제목 영역 -->
+                            <tr>
+                                <!-- <th scope="row">제목</th> -->
+                                <td class="view-title">
+                                    <div class="float-left">
+                                        <p class="title">
+                                            <b>남궁성 자바 3일차 인증합니다</b>
+                                            <span class="date" style="float:right">2021.5.12</span>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="info">
+                                            홍길동
+                                            <span class="date">
+                                                2021.05.12
+                                            </span>
+                                            <span class="count">
+                                                조회 : 50
+                                            </span>
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 글 작성된 영역 -->
+                            <tr>
+                                <td class="view-script">
+                                    남궁성 자바의 정석 3일차 인증합니다.
+                                    비교연산자까지 강의 듣고 정리 마쳤습니다
+                                    <br>
+                                    아래는 인증 사진입니다
+                                    <br><br>
+                                    <img src="./img/자바의 정석.PNG" style="width: 300px; height: 400px;">
+                                </td>
+                            </tr>
+                            <!-- 파일 첨부된 영역 -->
+                            <tr>
+                                <td>
+                                    <div class="float-left">
+                                        <ul>
+                                            <li>
+                                                <i class="icon-file-alt"> <a href="./img/자바의 정석.PNG">자바의 정석.jpg </a></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+                <!-- 수정 완료 및 취소 버튼 -->
+                <div class="bottom-info">
+                    <!-- 수정완료하기 버튼 -->
+                    <button class="delete">
+                        <span class="delete-text">삭제하기</span>
+                    </button>
+                    <!-- 취소하기 버튼 -->
+                    <button class="closed">
+                        <span class="closed-text">비공개하기</span>
+                    </button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

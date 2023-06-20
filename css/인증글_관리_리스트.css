@@ -1,0 +1,186 @@
+/*
+#F5EFE7
+#D8C4B6
+#4F709C
+#213555
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4f709c;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    /* justify-content: space-between; */
+  }
+  
+  li {
+    display: flex;
+  }
+  
+  /* a {
+    color: rgb(59, 63, 63);
+    text-decoration: none;
+    padding: 10px;
+  } */
+
+  body {
+    /* display: flex; */
+  }
+  .signup {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .logoandsearch {
+    border-bottom: solid 1px #6a6e76;
+  
+  }
+ 
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .categorybox {
+    border: 0px;  /*자동으로 생긴 보더 없애려면 0으로 css주기 */
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    display: inline-block;
+}
+
+  .mainbox {
+    width: 900px;
+    height: 1200px;
+    
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    float: left;
+}
+
+ .bigcategory {
+    padding: 20px;
+}
+
+ .smallcategory {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+ .maintitle {
+    padding-top: 50px;
+    height: 150px;
+    
+}
+
+.css {
+  display: flex;
+  height:100px;
+}
+
+.listcategory {
+  padding: 20px 0;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   line-height: 40px;
+   border-top: 3px solid #333 ;
+   border-bottom: 3px solid #333;
+}
+
+.lc-num1 {
+    text-align: center;
+    flex-basis: 10%;
+}
+
+.lc-num2 {
+    text-align: center;
+    flex-basis: 15%;
+}
+
+.lc-num3 {
+    text-align: center;
+    flex-basis: 45%;
+   
+}
+
+.lc-num4 {
+    text-align: center;
+    flex-basis: 15%;
+}
+
+.lc-num5 {
+    text-align: center;
+    flex-basis: 15%;
+}
+
+
+
+/* 리스트 카테고리 */
+.list {
+  display: flex;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+
+/* 리스트 내용 */
+
+.sequence1 {
+    text-align: center;
+    padding: 20px 0px;
+    
+    flex-basis: 125px;
+  }
+  
+  
+  .step-type {
+    text-align: left;
+    padding: 20px 0px;
+    width: 150px;
+  
+  }
+  
+  .write-title {
+    text-align: left;
+    padding: 20px 0px;
+    width: 450px;
+  }
+
+  .writer {
+    text-align: center;
+    padding: 20px 0px;
+    width: 125px;
+  }
+
+  .issue-date {
+    text-align: center;
+    padding: 20px 0px;
+    width: 180px;
+  }
+
+  a {
+    display: inline-block;
+    width: 900px;
+    height: 62px;
+  }
+
+

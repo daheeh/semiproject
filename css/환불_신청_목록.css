@@ -1,0 +1,365 @@
+/*
+#F5EFE7
+#D8C4B6
+#4F709C
+#213555
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4f709c;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    /* justify-content: space-between; */
+  }
+  
+  li {
+    display: flex;
+  }
+  
+  a {
+    color: rgb(59, 63, 63);
+    text-decoration: none;
+    padding: 10px;
+  }
+  body {
+    /* display: flex; */
+  }
+  .signup {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .logoandsearch {
+    border-bottom: solid 1px #6a6e76;
+  
+  }
+ 
+
+  /* 헤더아래 */
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .css {
+    display: flex;
+    height:100px;
+  }
+
+  /* 카테고리 */
+
+  .categorybox {
+    border: 0px;  /*자동으로 생긴 보더 없애려면 0으로 css주기 */
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    display: inline-block;
+}
+
+
+ .bigcategory {
+    padding: 20px;
+}
+
+ .smallcategory {
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 메인 내용 */
+.mainbox {
+  width: 1260px;
+  height: 1200px;
+  
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 100px;
+  float: left;
+}
+
+ .maintitle {
+    padding-top: 50px;
+    height: 150px;
+    
+}
+
+.memberlist {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.listcategory {
+  padding: 20px 0 20px 60px;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   line-height: 40px;
+   border-top: 3px solid #333 ;
+   border-bottom: 3px solid #333;
+}
+
+.memberlist {
+  width: 1320px;
+}
+
+.lc-num1 {
+  text-align: center;
+  width: 50px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.lc-num2 {
+  text-align: center;
+  width: 150px;
+  height: 20px;
+}
+
+.lc-num3 {
+  text-align: center;
+  width: 100px;
+  height: 20px;
+}
+
+.lc-num4 {
+    text-align: center;
+    width: 250px;
+    height: 20px;
+}
+
+.lc-num5 {
+  text-align: center;
+  width: 150px;
+  height: 20px;
+}
+
+.lc-num6 {
+    text-align: center;
+    width: 400px;
+    height: 20px;
+  }
+
+  .lc-num7 {
+    text-align: center;
+    width: 70px;
+    height: 20px;
+  }
+
+.list {
+  display: flex;
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 1320px;
+}
+
+.checkbox {
+  width: 50px;
+  height: 50px;
+  padding: 0px 5px;
+  line-height: 60px;
+  
+}
+
+.sequence1 {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  flex-basis: 50px;
+ 
+}
+
+.mem-id {
+  padding: 20px 0px 20px 20px;
+  color: rgb(76, 76, 76);
+  /* flex: 1 1 0%; */
+  text-align: center;
+  width: 120px;
+}
+
+.mem-name {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  /* flex-basis: 100px; */
+  width: 150px;
+
+}
+
+.mem-nick {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  /* flex-basis: 100px; */
+  width: 185px;
+}
+
+.mem-bank {
+  text-align: left;
+  padding: 20px 0px 20px 80px;
+  /* flex-basis: 100px; */
+  width: 215px;
+  color: rgb(153, 153, 153);
+
+}
+
+.mem-account {
+    text-align: center;
+    padding: 20px 80px 20px 0px;
+    /* flex-basis: 100px; */
+    width: 180px;
+    color: rgb(153, 153, 153);
+  }
+
+.mem-date {
+    text-align: center;
+    padding: 20px 0px;
+    /* flex-basis: 100px; */
+    width: 147px;
+    color: rgb(153, 153, 153);
+  }
+
+/* 은행 선택 토글 */
+.toggle {
+    width: 160px;
+    padding: 10px 0px;
+    float: left;
+}
+  
+/* 검색창 영역 */
+.search {
+    display:flex;
+    justify-content: flex-start;
+    width: 600px;
+    float:left;
+    padding-top: 30px;
+    margin-left: 0px;
+}
+
+.period {
+    padding: 10px 0px;
+}
+
+
+
+/* 출금 접수 및 취소 버튼 영역 */
+
+.top-info {
+    display: flex;
+    -webkit-box-pack: center;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    justify-content: flex-end;
+    width: 1320px;
+  }
+  
+.receive {
+    background-color: #4f709c;
+    color: #ffffff;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border-radius: 3px;
+  }
+
+.cancel {
+    background-color: #4f709c;
+    color: #ffffff;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border-radius: 3px;
+  }
+
+
+/* 아래 영역 */
+
+.bottom-info {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid rgb(244, 244, 244);
+}
+
+a {
+  display: inline-block;
+  width: 1320px;
+  height: 62px;
+}
+
+
+/* 페이지 넘어가는 숫자 */
+
+.page-num {
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-image: initial;
+    border-left: none;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+    color: #4f709c;
+}
+
+.before {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-image: initial;
+  border-left: 1px solid rgb(221, 221, 221);;
+  cursor: pointer;
+}
+
+.after {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-image: initial;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+

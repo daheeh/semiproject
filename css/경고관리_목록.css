@@ -1,0 +1,245 @@
+/*
+#F5EFE7
+#D8C4B6
+#4F709C
+#213555
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4f709c;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    /* justify-content: space-between; */
+  }
+  
+  li {
+    display: flex;
+  }
+  
+  a {
+    color: rgb(59, 63, 63);
+    text-decoration: none;
+    padding: 10px;
+  }
+  body {
+    /* display: flex; */
+  }
+  .signup {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .logoandsearch {
+    border-bottom: solid 1px #6a6e76;
+  
+  }
+ 
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .categorybox {
+    border: 0px;  /*자동으로 생긴 보더 없애려면 0으로 css주기 */
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    display: inline-block;
+}
+
+  .mainbox {
+    width: 900px;
+    height: 1200px;
+    
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    float: left;
+}
+
+ .bigcategory {
+    padding: 20px;
+}
+
+ .smallcategory {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+ .maintitle {
+    padding-top: 50px;
+    height: 150px;
+    
+}
+
+.css {
+  display: flex;
+  height:100px;
+}
+
+.listcategory {
+  padding: 20px 0;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   line-height: 40px;
+   border-top: 3px solid #333 ;
+   border-bottom: 3px solid #333;
+}
+
+.lc-num1 {
+  text-align: center;
+  width: 50px;
+  height: 20px;
+}
+
+.lc-num2 {
+  text-align: center;
+  width: 225px;
+  height: 20px;
+}
+
+.lc-num3 {
+  text-align: center;
+  width: 225px;
+  height: 20px;
+}
+
+.lc-num4 {
+  text-align: center;
+  width: 225px;
+  height: 20px;
+}
+
+.lc-num5 {
+  text-align: center;
+  width: 225px;
+  height: 20px;
+}
+
+.list {
+  display: flex;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.sequence1 {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  flex-basis: 50px;
+ 
+}
+
+.warning {
+  padding: 20px 0px 20px 20px;
+  color: rgb(76, 76, 76);
+  flex: 1 1 0%;
+  text-align: center;
+  width: 200px;
+}
+
+.mem-name {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  /* flex-basis: 100px; */
+  width: 260px;
+
+}
+
+.mem-id {
+  text-align: center;
+  padding: 20px 0px;
+  color: rgb(76, 76, 76);
+  /* flex-basis: 100px; */
+  width: 170px;
+}
+
+.warning-date {
+  text-align: center;
+  padding: 20px 0px;
+  /* flex-basis: 100px; */
+  width: 250px;
+  color: rgb(153, 153, 153);
+
+}
+
+.bottom-info {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid rgb(244, 244, 244);
+}
+
+/* 페이지 넘어가는 숫자 */
+
+.page-num {
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-image: initial;
+    border-left: none;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+    color: #4f709c;
+}
+
+.before {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-image: initial;
+  border-left: 1px solid rgb(221, 221, 221);;
+  cursor: pointer;
+}
+
+.after {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  border-image: initial;
+  border-left: none;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 페이지</title>
+    <link rel="stylesheet" href="css/nibble_main.css" />
+    <link rel="stylesheet" href="./css/블랙_상세_내용.css" />
+</head>
+<body>
+    <header></header>
+    <div class="signup">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+    </div>
+    <div class="logoandsearch">
+        <img src="./img/logo2.JPG" width="200" alt="이미지표시불가" />
+    </div>  
+    <!-- 헤더 아래 전체 영역 -->
+    <div class="container">
+        <!-- 헤더 아래 내용 margin padding -->
+        <div class="css">
+            <!-- 왼쪽 카테고리 박스 전체 -->
+            <div class="categorybox">
+                <!-- 카테고리 박스 큰 제목 -->
+                <div class="bigcategory">회원관리</div>
+                <!-- 카테고리 작은 제목 -->
+                <ul class="smallcategory">
+                    <li>회원 정보 수정</li>
+                    <li>경고 사유 관리</li>
+                    <li>회원 인증글 관리</li>
+                    <li>블랙 회원 관리</li>
+                </ul>
+            </div>
+            <!-- 메인 영역 -->
+            <div class="mainbox">
+                <!-- 메인 영역 큰 제목 -->
+                <div class="maintitle">
+                    <div class="maintitletext">
+                    <h2 class="mtt">블랙 회원 상세</h2>
+                    </div>
+                    <span class="submtt">블랙 회원 <b>가나다</b>님의 상세 내역입니다</span>
+                </div>
+                <!-- 회원 리스트 카테고리  -->
+                <div class="listcategory">
+                    <div class="lc-num1"><b>날짜</b></div>
+                    <div class="lc-num2"><b>내용</b></div>
+                    <div class="lc-num3"><b>레드카드</b></div>
+                </div>
+                    <ul class="memberlist">
+                        <li>
+                        <!-- 리스트 개별 내용 -->
+                            <div class="list">
+                                <!-- 블랙 날짜 -->
+                                <div class="black-date">21.09.03</div>
+                                <!-- 블랙 상세 내용  -->
+                                <div class="detail1">[욕설] 타 회원 비방 및 욕설</div>
+                                <!-- 레드카드 -->
+                                <div class="redcard">1</div>
+                            </div>
+                        </li>
+                        <li>
+                        <!-- 리스트 개별 내용2 -->
+                            <div class="list">
+                                <!-- 블랙 날짜 -->
+                                <div class="black-date">21.09.10</div>
+                                <!-- 블랙 상세 내용  -->
+                                <div class="detail1">[욕설] 타 회원 비방 및 욕설</div>
+                                <!-- 레드카드 -->
+                                <div class="redcard">1</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 블랙 해제하기 버튼 -->
+                    <div class="bottom-info">
+                        <!-- <button class="remove-black">블랙 해제하기</button> -->
+                        <button onclick="confirmQ()" class="remove-black">블랙 해제하기</button>
+                        <script>
+                            function confirmQ(){
+                                if(confirm("블랙을 해제하시겠습니까?")){
+                                    alert("블랙이 해제되었습니다.");
+                                } else {
+                                    alert("취소되었습니다.");
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

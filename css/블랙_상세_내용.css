@@ -1,0 +1,184 @@
+/*
+#F5EFE7
+#D8C4B6
+#4F709C
+#213555
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4f709c;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    /* justify-content: space-between; */
+  }
+  
+  li {
+    display: flex;
+  }
+  
+  a {
+    color: rgb(59, 63, 63);
+    text-decoration: none;
+    padding: 10px;
+  }
+  body {
+    /* display: flex; */
+  }
+  .signup {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .logoandsearch {
+    border-bottom: solid 1px #6a6e76;
+  
+  }
+ 
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .categorybox {
+    border: 0px;  /*자동으로 생긴 보더 없애려면 0으로 css주기 */
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    display: inline-block;
+}
+
+  .mainbox {
+    width: 900px;
+    height: 1200px;
+    
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    float: left;
+}
+
+ .bigcategory {
+    padding: 20px;
+}
+
+ .smallcategory {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+ .maintitle {
+    padding-top: 50px;
+    height: 150px;
+    
+}
+
+.css {
+  display: flex;
+  height:100px;
+}
+
+.listcategory {
+  padding: 20px 0;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   line-height: 40px;
+   border-top: 3px solid #333 ;
+   border-bottom: 3px solid #333;
+}
+
+.lc-num1 {
+    text-align: center;
+    flex-basis: 14.6%;
+}
+
+.lc-num2 {
+    text-align: left;
+    padding-left: 70px;
+    flex-basis: 53.4%;
+}
+
+.lc-num3 {
+    text-align: center;
+    flex-basis: 14.6%;
+    padding-left: 50px;
+}
+
+
+/* 리스트 카테고리 */
+.list {
+  display: flex;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+
+/* 리스트 내용 */
+
+.black-date {
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(76, 76, 76);
+    flex-basis: 125px;
+   
+  }
+  
+  
+  .detail1 {
+    text-align: left;
+    padding: 20px 0px;
+    padding-left: 70px;
+    color: rgb(76, 76, 76);
+    /* flex-basis: 100px; */
+    width: 550px;
+  
+  }
+  
+  .redcard {
+    text-align: center;
+    padding: 20px 0px;
+    width: 200px;
+  }
+
+  /* 버튼영역 */
+
+  .bottom-info {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    border-top: 1px solid rgb(244, 244, 244);
+  }
+
+  .remove-black {
+    background-color: #4f709c;
+    color: #ffffff;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border-radius: 3px;
+  }
+
+  /* 팝업창 스타일 */
+  /* max-width: 360px;
+  border-radius: 12px;
+  padding: 0; */
