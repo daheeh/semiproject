@@ -1,0 +1,372 @@
+
+
+#header {
+	background-color:lightgrey;
+	height:100px;
+}
+
+#nav {
+	color:white;
+	width:210px;
+	height:1050px;
+	float:left;
+	margin-left: 80px;
+	border-left: 2px solid rgb(255, 212, 126);
+	border-right: 2px solid rgb(255, 212, 126);
+}
+
+#section {
+	width: 1500px;
+	height: 1000px;
+	text-align:left;
+	float:left;
+	padding:10px;
+}
+
+#footer {
+	background-color:#FFCC00;
+	height:100px;
+	clear:both;
+}
+
+#header, #nav, #section, #footer { text-align:center; }
+
+#header, #footer { line-height:100px; }
+
+/* #section { line-height:240px; } */
+
+/* 카테고리 바 */
+/* .licategory { 
+	display: block;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px; 
+	
+} */
+.licategory { 
+	text-decoration-line: none;
+	box-sizing: border-box;
+	display: block;
+	width: 210px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	transition-duration: 1s;
+}
+
+/* summernote 카테고리 크기*/
+.licategory2 { 
+	box-sizing: border-box;
+	display: block;
+	width: 206px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: white;
+	transition-duration: 1s;
+}
+/* 카테고리 여백 */
+.div1{
+	width: 200px;
+	height: 150px;
+	text-align: center;
+}
+
+/* 마진 0 */
+.hrline1 {
+	width: 1900px;
+	height: 2px;
+	background-color:rgb(255, 212, 126);
+	margin: 0;
+}
+
+.title {
+	margin-left: 30px;
+	width: 1500px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	border-bottom: 2px solid  rgb(255, 212, 126) ;
+}
+
+/* 버튼 div */
+.divbutton1{
+	width: 1500px;
+	height: 70px;
+	margin-left: 30px;
+}
+
+.button1{
+	background-color: rgb(255, 212, 126);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+/* 게시판 */
+.table {
+	margin-left: 30px;
+	width: 1500px;
+	height: 500px;
+	text-align: center;
+}
+
+/* 게시판 라인*/
+.div2 {
+	margin-left: 30px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 1500px;
+	height: px;
+}
+
+/* ================================== transition =========================================== */
+
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	flex-direction: column;
+}
+
+nav li{
+	float: none; 
+	width: 100%;
+}
+
+nav li a{
+	display: block; 
+	width: 100%; 
+	padding: 20px; 
+	border-left: 5px solid; 
+	position: relative; 
+	z-index: 2;
+	text-decoration: none;
+	color: #444;
+	box-sizing: border-box;  
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+}
+	
+nav li a:hover{ border-bottom: 0px; color: #fff;}
+nav li:first-child a{ border-left: 10px solid #ffd071; }
+nav li:nth-child(2) a{ border-left: 10px solid #ffd071; }
+nav li:nth-child(3) a{ border-left: 10px solid #ffd071; }
+nav li:nth-child(4) a{ border-left: 10px solid #ffd071; }
+nav li:nth-child(5) a{ border-left: 10px solid #ffd071; }
+nav li:last-child a{ border-left: 10px solid #ffd071; }
+
+nav li a:after { 
+	content: "";
+	height: 100%; 
+	left: 0; 
+	top: 0; 
+	width: 0px;  
+	position: absolute; 
+	transition: all 1s ease 0s; 
+	-webkit-transition: all 1s ease 0s; 
+	z-index: -1;
+}
+
+nav li a:hover:after{ width: 100%; }
+nav li:first-child a:after{ background: #ffd071; }
+nav li:nth-child(2) a:after{ background: #ffd071; }
+nav li:nth-child(3) a:after{ background: #ffd071; }
+nav li:nth-child(4) a:after{ background: #ffd071; }
+nav li:nth-child(5) a:after{ background: #ffd071; }
+nav li:last-child a:after{ background: #ffd071; }
+
+
+.a1{
+	padding-left: 0px;
+	border-top-width: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+/* ================================== transition: 회원정보수정 메인 내용 =========================================== */
+.main-info {
+    width: 820px;
+    margin: 0px auto;
+    padding: 50px 60px 20px 120px;
+  }
+
+/* form 1 */
+  .form1 {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .form1-name {
+    width: 139px;
+    padding-top: 12px;
+  }
+
+  .form1-box {
+    flex: 1 1 0%;
+  }
+
+  .form1-box-2 {
+    position: relative;
+    height: 48px;
+  }
+ 
+  .user-name {
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    line-height: 20px;
+  }
+  
+  .form1-back {
+    width: 120px;
+    margin-left: 8px;
+  }
+
+  .css-name {
+    width: 100%;
+    height: 46px;
+    padding: 0px 11px 1px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  /* form 2 */
+  .form2 {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .form2-email {
+    width: 139px;
+    padding-top: 12px;
+  }
+
+  .form2-box {
+    flex: 1 1 0%;
+  }
+
+  .form2-box-2 {
+    position: relative;
+    height: 48px;
+  }
+ 
+  .user-email {
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    line-height: 20px;
+  }
+  
+  .form2-back {
+    width: 120px;
+    margin-left: 8px;
+  }
+
+  .css-email {
+    width: 100%;
+    height: 46px;
+    padding: 0px 11px 1px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+    outline: none;
+    box-sizing: border-box;
+  }
+
+
+  /* form 3 */
+  .form3 {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .form3-gitadd {
+    width: 139px;
+    padding-top: 12px;
+  }
+
+  .form3-box {
+    flex: 1 1 0%;
+  }
+
+  .form3-box-2 {
+    position: relative;
+    height: 48px;
+  }
+ 
+  .user-gitadd {
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    line-height: 20px;
+  }
+  
+  .form3-back {
+    width: 120px;
+    margin-left: 8px;
+  }
+
+  .css-gitadd {
+    width: 100%;
+    height: 46px;
+    padding: 0px 11px 1px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  /* bottom */
+
+  .bottom-info {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    border-top: 1px solid rgb(244, 244, 244);
+  }
+
+  .submit {
+    background-color: #ffd071;
+    color: #000;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border: 0;
+    border-radius: 8px;
+
+  }
+
+  .cancel {
+    background-color: #ffd071;
+    color: #000;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border: 0;
+    border-radius: 8px;
+  }
+
+
+
+
