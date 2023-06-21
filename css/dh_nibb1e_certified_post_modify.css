@@ -23,6 +23,15 @@
 	padding:10px;
 }
 
+#section-dh {
+	width: 1500px;
+	height: 1000px;
+	text-align:left;
+	float:left;
+	padding:10px;
+    margin-bottom: 500px; 
+}
+
 #footer {
 	background-color:#FFCC00;
 	height:100px;
@@ -189,172 +198,191 @@ nav li:last-child a:after{ background: #ffd071; }
 	padding-right: 0px;
 	padding-bottom: 0px;
 }
-/* ================================== transition: 전체회원목록 메인 내용 =========================================== */
+/* ================================== transition: 스텝 리스트 메인 내용 =========================================== */
 
 .mainbox {
     width: 1480px;
-    height: 700px;
-    
+    height: 1200px;
     margin-left: 50px;
-    margin-top: 100px;
-    /* margin-right: 100px; */
+    margin-top: 30px;
+    margin-right: 100px;
+    float: left; 
+}
+
+ .bigcategory {
+    padding: 20px;
+}
+
+ .smallcategory {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+ .maintitle {
+    padding-top: 50px;
+    height: 150px;
+    
+}
+
+.css {
+  display: flex;
+  height:100px;
+}
+
+.listcategory {
+  padding: 20px 0;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   line-height: 40px;
+   border-top: 3px solid #333 ;
+   border-bottom: 3px solid #333;
+}
+
+.board {
+    margin-bottom: 40px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    width: 800px;
+    height: 300px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.posting {
+    width: 900px;
+    height: 800px;
+    box-sizing: border-box;
+    padding: 43px 38px 60px 38px;
+    /* border: solid 1px #e9e9e9; */
+    border-width: 1px 0 0 1px;
+    margin-left: -1px
+}
+
+.board-all {
+    width: 1370px;
+    height: 600px;
+}
+
+.board-in th {
+    height: 52px;
+    line-height: 52px;
+    color: #333;
+    letter-spacing: -0.05em;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+}
+
+.board-and-button {
+    width: 900px;
+    height: 700px;
+}
+
+.view-title {
+    line-height: 15px;
+    padding: 10px 0;
+    border-top: 2px solid #000;
+}
+
+.float-left{
     float: left;
-  }
-  
-   .maintitle {
-      padding-top: 50px;
-      height: 150px;
-      
-  }
-  
-  .listcategory {
-    padding: 20px 0px 20px 10px;
-     width: 100%;
-     height: 30px;
-     display: flex;
-     line-height: 40px;
-     border-top: 3px solid #333 ;
-     border-bottom: 3px solid #333;
-  }
-  
-  .lc-num1 {
-    text-align: center;
-    width: 115px;
-    height: 20px;
-  }
-  
-  .lc-num2 {
-    text-align: center;
-    padding-left: 1px;
-    width: 300px;
-    height: 20px;
-  }
-  
-  .lc-num3 {
-    text-align: center;
-    width: 350px;
-    height: 20px;
-  }
-  
-  .lc-num4 {
-    text-align: center;
-    width: 350px;
-    height: 20px;
-  }
-  
-  .lc-num5 {
-    text-align: center;
-    width: 350px;
-    height: 20px;
-  }
-  
-  .list {
-    display: flex;
-    border-bottom: 1px solid rgb(244, 244, 244);
-  }
-  
-  .sequence1 {
-    text-align: center;
-    padding: 20px 0px;
-    color: rgb(76, 76, 76);
-    width: 100px;
-   
-  }
-  
-  .mem-id {
-    padding: 20px 0px 20px 20px;
-    color: rgb(76, 76, 76);
-    width: 300px;
-    text-align: center;
-  }
-  
-  .mem-name {
-    text-align: center;
-    padding: 20px 0px;
-    color: rgb(76, 76, 76);
-    width: 350px;  
-  }
-  
-  .mem-nick {
-    text-align: center;
-    padding: 20px 0px;
-    color: rgb(76, 76, 76);
-    /* flex-basis: 100px; */
-    width: 350px;
-  }
-  
-  .mem-date {
-    text-align: center;
-    padding: 20px 0px;
-    width: 350px;
-    color: rgb(153, 153, 153);
-  
-  }
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 
-  .memberlist {
-    display: flex;
-    flex-wrap: wrap;
+}
 
-  }
-  
+.post-title {
+    min-height: 24px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: -0.05em;
+}
+
+.view-title .info span:before {
+    content: '|';
+    padding: 0 20px;
+    color: #c1c1c1;
+
+}
+
+.info {
+    float: left;
+}
+
+.view-script {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    height: 500px;
+    padding: 20px 0px;
+    text-align: left; 
+}
+
+.view-script-contents {
+    float: left;
+}
+
+.icon-file-alt:before {
+    content: "\f0f6";
+}
+
+  /* bottom */
+
   .bottom-info {
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
     margin-top: 20px;
     padding-top: 40px;
-    /* border-top: 1px solid rgb(244, 244, 244); */
-  }
-  
-  /* 페이지 넘어가는 숫자 */
-  
-  .page-num {
-    display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      justify-content: center;
-      width: 34px;
-      height: 34px;
-      border-top: 1px solid rgb(221, 221, 221);
-      border-right: 1px solid rgb(221, 221, 221);
-      border-bottom: 1px solid rgb(221, 221, 221);
-      border-image: initial;
-      border-left: none;
-      cursor: pointer;
-      background-color: rgb(247, 247, 247);
-      color: #4f709c;
-  }
-  
-  .before {
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    width: 34px;
-    height: 34px;
-    border-top: 1px solid rgb(221, 221, 221);
-    border-right: 1px solid rgb(221, 221, 221);
-    border-bottom: 1px solid rgb(221, 221, 221);
-    border-image: initial;
-    border-left: 1px solid rgb(221, 221, 221);;
-    cursor: pointer;
-  }
-  
-  .after {
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    width: 34px;
-    height: 34px;
-    border-top: 1px solid rgb(221, 221, 221);
-    border-right: 1px solid rgb(221, 221, 221);
-    border-bottom: 1px solid rgb(221, 221, 221);
-    border-image: initial;
-    border-left: none;
-    cursor: pointer;
+    border-top: 1px solid rgb(244, 244, 244);
   }
 
+  /* .delete {
+    background-color: #4f709c;
+    color: #ffffff;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border-radius: 3px;
+  }
+
+  .closed {
+    background-color: #4f709c;
+    color: #ffffff;
+    width: 120px;
+    height: 44px;
+    margin: 0px 5px;
+    border-radius: 3px;
+  } */
+
+  .delete {
+    background-color: #ffd071;
+    color: #000;
+    width: 180px;
+    height: 60px;
+    margin: 0px 10px;
+    border: 0;
+    border-radius: 11px;
+
+  }
+
+  .closed {
+    background-color: #ffd071;
+    color: #000;
+    width: 180px;
+    height: 60px;
+    margin: 0px 10px;
+    border: 0;
+    border-radius: 11px;
+  }

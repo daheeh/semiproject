@@ -15,12 +15,13 @@
 	border-right: 2px solid rgb(255, 212, 126);
 }
 
-#section {
+#section-dh {
 	width: 1500px;
 	height: 1000px;
 	text-align:left;
 	float:left;
 	padding:10px;
+    margin-bottom: 500px;
 }
 
 #footer {
@@ -89,6 +90,7 @@
 	line-height: 150px;
 	text-align: center;
 	border-bottom: 2px solid  rgb(255, 212, 126) ;
+    /* margin-left: 150px; */
 }
 
 /* 버튼 div */
@@ -189,15 +191,16 @@ nav li:last-child a:after{ background: #ffd071; }
 	padding-right: 0px;
 	padding-bottom: 0px;
 }
-/* ================================== transition: 전체회원목록 메인 내용 =========================================== */
+/* ================================== transition: 스텝 리스트 메인 내용 =========================================== */
 
+/* 메인 내용 */
 .mainbox {
-    width: 1480px;
-    height: 700px;
+    width: 1260px;
+    height: 1200px;
     
     margin-left: 50px;
-    margin-top: 100px;
-    /* margin-right: 100px; */
+    margin-top: 30px;
+    margin-right: 100px;
     float: left;
   }
   
@@ -208,7 +211,7 @@ nav li:last-child a:after{ background: #ffd071; }
   }
   
   .listcategory {
-    padding: 20px 0px 20px 10px;
+    padding: 20px 0 20px 60px;
      width: 100%;
      height: 30px;
      display: flex;
@@ -217,62 +220,92 @@ nav li:last-child a:after{ background: #ffd071; }
      border-bottom: 3px solid #333;
   }
   
+  .memberlist {
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   .lc-num1 {
     text-align: center;
-    width: 115px;
+    width: 50px;
     height: 20px;
+    padding-left: 10px;
   }
   
   .lc-num2 {
     text-align: center;
-    padding-left: 1px;
-    width: 300px;
+    width: 150px;
     height: 20px;
   }
   
   .lc-num3 {
     text-align: center;
-    width: 350px;
+    width: 100px;
     height: 20px;
   }
   
   .lc-num4 {
-    text-align: center;
-    width: 350px;
-    height: 20px;
+      text-align: center;
+      width: 250px;
+      height: 20px;
   }
   
   .lc-num5 {
     text-align: center;
-    width: 350px;
+    width: 150px;
     height: 20px;
   }
+  
+  .lc-num6 {
+      text-align: center;
+      width: 400px;
+      height: 20px;
+    }
+  
+    .lc-num7 {
+      text-align: center;
+      width: 70px;
+      height: 20px;
+    }
   
   .list {
     display: flex;
     border-bottom: 1px solid rgb(244, 244, 244);
+    width: 1320px;
+  }
+  
+  .checkbox {
+    width: 50px;
+    height: 50px;
+    padding: 0px 5px;
+    line-height: 60px;
+    
   }
   
   .sequence1 {
     text-align: center;
     padding: 20px 0px;
     color: rgb(76, 76, 76);
-    width: 100px;
+    flex-basis: 50px;
    
   }
   
   .mem-id {
     padding: 20px 0px 20px 20px;
     color: rgb(76, 76, 76);
-    width: 300px;
+    /* flex: 1 1 0%; */
     text-align: center;
+    width: 120px;
   }
   
   .mem-name {
     text-align: center;
     padding: 20px 0px;
     color: rgb(76, 76, 76);
-    width: 350px;  
+    /* flex-basis: 100px; */
+    width: 150px;
+  
   }
   
   .mem-nick {
@@ -280,22 +313,91 @@ nav li:last-child a:after{ background: #ffd071; }
     padding: 20px 0px;
     color: rgb(76, 76, 76);
     /* flex-basis: 100px; */
-    width: 350px;
+    width: 185px;
   }
   
-  .mem-date {
-    text-align: center;
-    padding: 20px 0px;
-    width: 350px;
+  .mem-bank {
+    text-align: left;
+    padding: 20px 0px 20px 80px;
+    /* flex-basis: 100px; */
+    width: 215px;
     color: rgb(153, 153, 153);
   
   }
-
-  .memberlist {
-    display: flex;
-    flex-wrap: wrap;
-
+  
+  .mem-account {
+      text-align: center;
+      padding: 20px 80px 20px 0px;
+      /* flex-basis: 100px; */
+      width: 180px;
+      color: rgb(153, 153, 153);
+    }
+  
+  .mem-date {
+      text-align: center;
+      padding: 20px 0px;
+      /* flex-basis: 100px; */
+      width: 147px;
+      color: rgb(153, 153, 153);
+    }
+  
+  /* 은행 선택 토글 */
+  .toggle {
+      width: 160px;
+      padding: 10px 0px;
+      float: left;
   }
+    
+  /* 검색창 영역 */
+  .searchbar {
+      display:flex;
+      justify-content: flex-start;
+      width: 600px;
+      float:left;
+      padding-top: 30px;
+      margin-left: 0px;
+  }
+  
+  .period {
+      padding: 10px 0px;
+      width: 550px;
+  }
+  
+  
+  
+  /* 출금 접수 및 취소 버튼 영역 */
+  
+  .top-info {
+      display: flex;
+      -webkit-box-pack: center;
+      margin-bottom: 40px;
+      margin-top: 25px;
+      justify-content: flex-end;
+      width: 1320px;
+    }
+    
+  .receive {
+      background-color: rgb(255, 212, 126);
+      color: #000;
+      width: 120px;
+      height: 44px;
+      margin: 0px 5px;
+      border-radius: 3px;
+      border: 0;
+    }
+  
+  .cancel {
+      background-color: rgb(255, 212, 126);
+      color: #000;
+      width: 120px;
+      height: 44px;
+      margin: 0px 5px;
+      border-radius: 3px;
+      border: 0;
+    }
+  
+  
+  /* 아래 영역 */
   
   .bottom-info {
     display: flex;
@@ -303,8 +405,15 @@ nav li:last-child a:after{ background: #ffd071; }
     justify-content: center;
     margin-top: 20px;
     padding-top: 40px;
-    /* border-top: 1px solid rgb(244, 244, 244); */
+    border-top: 1px solid rgb(244, 244, 244);
   }
+  
+  /* a {
+    display: inline-block;
+    width: 1320px;
+    height: 62px;
+  } */
+  
   
   /* 페이지 넘어가는 숫자 */
   
@@ -357,4 +466,7 @@ nav li:last-child a:after{ background: #ffd071; }
     border-left: none;
     cursor: pointer;
   }
-
+  
+  
+  
+  

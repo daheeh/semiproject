@@ -189,7 +189,7 @@ nav li:last-child a:after{ background: #ffd071; }
 	padding-right: 0px;
 	padding-bottom: 0px;
 }
-/* ================================== transition: 전체회원목록 메인 내용 =========================================== */
+/* ================================== transition: 스텝 리스트 메인 내용 =========================================== */
 
 .mainbox {
     width: 1480px;
@@ -216,10 +216,16 @@ nav li:last-child a:after{ background: #ffd071; }
      border-top: 3px solid #333 ;
      border-bottom: 3px solid #333;
   }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+  }
   
   .lc-num1 {
     text-align: center;
-    width: 115px;
+    width: 170px;
     height: 20px;
   }
   
@@ -232,7 +238,7 @@ nav li:last-child a:after{ background: #ffd071; }
   
   .lc-num3 {
     text-align: center;
-    width: 350px;
+    width: 550px;
     height: 20px;
   }
   
@@ -257,14 +263,20 @@ nav li:last-child a:after{ background: #ffd071; }
     text-align: center;
     padding: 20px 0px;
     color: rgb(76, 76, 76);
-    width: 100px;
-   
+    width: 140px;
+  }
+
+  .warning {
+    padding: 20px 0px 20px 20px;
+    color: rgb(76, 76, 76);
+    width: 240px;
+    text-align: center;
   }
   
   .mem-id {
     padding: 20px 0px 20px 20px;
     color: rgb(76, 76, 76);
-    width: 300px;
+    width: 263px;
     text-align: center;
   }
   
@@ -272,21 +284,14 @@ nav li:last-child a:after{ background: #ffd071; }
     text-align: center;
     padding: 20px 0px;
     color: rgb(76, 76, 76);
-    width: 350px;  
+    width: 480px;  
   }
   
-  .mem-nick {
-    text-align: center;
-    padding: 20px 0px;
-    color: rgb(76, 76, 76);
-    /* flex-basis: 100px; */
-    width: 350px;
-  }
   
-  .mem-date {
+  .warning-date {
     text-align: center;
     padding: 20px 0px;
-    width: 350px;
+    width: 330px;
     color: rgb(153, 153, 153);
   
   }
@@ -294,7 +299,6 @@ nav li:last-child a:after{ background: #ffd071; }
   .memberlist {
     display: flex;
     flex-wrap: wrap;
-
   }
   
   .bottom-info {

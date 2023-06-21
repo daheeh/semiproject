@@ -1,53 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>메인 페이지</title>
+    <title>고객센터</title>
+    <link rel="stylesheet" href="../css/dh_nibb1e_warning_list.css">
     <link rel="stylesheet" href="../css/nibble_main.css" />
-    <link rel="stylesheet" href="../css/경고관리_목록.css" />
+    <link rel="stylesheet" href="./css/divteil.css">
 </head>
-<body>
-    <header></header>
-    <div class="signup">
-        <a href="#">로그인</a>
-        <a href="#">회원가입</a>
-    </div>
-    <div class="logoandsearch">
-        <img src="./img/logo2.JPG" width="200" alt="이미지표시불가" />
-    </div>  
-    <!-- 헤더 아래 전체 영역 -->
-    <div class="container">
-        <!-- 헤더 아래 내용 margin padding -->
-        <div class="css">
-            <!-- 왼쪽 카테고리 박스 전체 -->
-            <div class="categorybox">
-                <!-- 카테고리 박스 큰 제목 -->
-                <div class="bigcategory">회원관리</div>
-                <!-- 카테고리 작은 제목 -->
-                <ul class="smallcategory">
-                    <li>회원 정보 수정</li>
-                    <li>경고 사유 관리</li>
-                    <li>회원 인증글 관리</li>
-                    <li>블랙 회원 관리</li>
-                </ul>
+<!-- 헤더 -->
+        <header></header>
+        <div class="signup">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+        <div class="logoandsearch">
+            <a href="./nibble_main.html">
+            <img src="../img/logo.jpg" alt="이미지표시불가" />
+            </a>
+            <div class="search">
+                <input
+                type="text"
+                class="searchTerm"
+                placeholder="검색어를 입력하세요"
+                />
+                <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+                </button>
             </div>
-            <!-- 메인 영역 -->
+        </div>
+
+        <div class="headermenu">
+            <ul id="headermenuul">
+                <li id="lis"><a href="#">Home</a></li>
+                <li id="lis"><a href="#">서비스 소개</a></li>
+                <li id="lis"><a href="#">Step</a></li>
+                <li id="lis"><a href="#">Step 후기</a></li>
+                <li id="lis"><a href="./nibble_custommercenter.html">고객센터</a></li>
+            </ul>
+        </div>
+<!-- 헤더 -->
+
+    <hr class="hrline1">
+	<div id="nav">
+        <div class="div1"></div>
+            <nav>
+            <ul>
+            <h2 class="licategory"><a>회원관리</a></h2>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >회원 정보 수정</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >경고 사유 관리</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >회원 인증글 관리</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >블랙 회원 관리</a>
+            </li>
+            </ul>
+            </nav>
+	</div>
+
+	<div id="section">
+<!-- 전체회원목록 상단 -->
+        <h2 class="title">경고 회원 목록</h2>
+<!-- 전체회원목록 상단 끝-->
+<main></main>
+            <!-- 경고 리스트 영역 -->
             <div class="mainbox">
-                <!-- 메인 영역 큰 제목 -->
-                <div class="maintitle">
-                    <div class="maintitletext">
-                    <h2 class="mtt">경고 관리</h2>
-                    </div>
-                    <span class="submtt">경고 회원을 관리해보세요</span>
-                </div>
-                <!-- 회원 리스트 카테고리  -->
+                <!-- 경고 리스트 카테고리  -->
                 <div class="listcategory">
-                    <div width= "50" class="lc-num1">번호</div>
-                    <div class="lc-num2">경고사유</div>
-                    <div width= "200" class="lc-num3">이름</div>
-                    <div width= "200" class="lc-num4">아이디</div>
-                    <div width= "200" class="lc-num5">경고일</div>
+                    <div width= "50" class="lc-num1"><b>번호</b></div>
+                    <div class="lc-num2"><b>경고사유</b></div>
+                    <div width= "200" class="lc-num3"><b>이름</b></div>
+                    <div width= "200" class="lc-num4"><b>아이디</b></div>
+                    <div width= "200" class="lc-num5"><b>경고일</b></div>
                 </div>
                 <!-- 리스트 내용 전체 -->
                 <ul class="memberlist">
@@ -169,8 +199,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    </div>
+</div>
+<!-- footer -->
+<div id="footer">
+
+    <p>사업주 , 전화번호, sns 공유 아이콘 등등</p>
+
+</div>
+
+
+
 </body>
+
 </html>
