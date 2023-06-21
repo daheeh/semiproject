@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객센터</title>
+    <link rel="stylesheet" href="../css/dh_nibb1e_refund_application_list.css">
+    <link rel="stylesheet" href="../css/nibble_main.css" />
+    <link rel="stylesheet" href="./css/divteil.css">
+</head>
+<!-- 헤더 -->
+        <header></header>
+        <div class="signup">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+        <div class="logoandsearch">
+            <a href="./nibble_main.html">
+            <img src="../img/logo.jpg" alt="이미지표시불가" />
+            </a>
+            <div class="search">
+                <input
+                type="text"
+                class="searchTerm"
+                placeholder="검색어를 입력하세요"
+                />
+                <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="headermenu">
+            <ul id="headermenuul">
+                <li id="lis"><a href="#">Home</a></li>
+                <li id="lis"><a href="#">서비스 소개</a></li>
+                <li id="lis"><a href="#">Step</a></li>
+                <li id="lis"><a href="#">Step 후기</a></li>
+                <li id="lis"><a href="./nibble_custommercenter.html">고객센터</a></li>
+            </ul>
+        </div>
+<!-- 헤더 -->
+
+    <hr class="hrline1">
+    <div id="nav">
+        <div class="div1"></div>
+            <nav>
+            <ul>
+            <h2 class="licategory"><a>회원관리</a></h2>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >회원 정보 수정</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >경고 사유 관리</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >회원 인증글 관리</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >블랙 회원 관리</a>
+            </li>
+            </ul>
+            </nav>
+	</div>
+
+	<div id="section-dh">
+<!-- 환불 신청 관리 상단 -->
+        <h2 class="title">환불 신청 관리</h2>
+<!-- 환불 신청 관리 상단 끝-->
+<main></main>
+            <!-- 환불 신청 관리 메인 영역 -->
+            <div class="mainbox">
+                <!-- 카테고리 토글 -->
+                <div class="toggle">
+                    <form>
+                        <label><b>은행</b>
+                            <select>
+                                <option>신한은행</option>
+                                <option>기업은행</option>
+                                <option>국민은행</option>
+                                <option>농협</option>
+                            </select>
+                        </label>
+                    </form>
+                </div>
+                <!-- 기간 선택 달력 -->
+                <div class="period">
+                    <label><b>기간 설정</b>
+                        <input type="date" name="schedule" min="2022-04-01" max="2022-04-30" />
+                        <span> - </span>
+                        <input type="date" name="schedule" min="2022-04-01" max="2022-04-30" />
+                    </label>   
+                </div>
+                <!-- 검색 기능 영역  -->
+                <div class="searchbar">
+                    <!-- 검색창 -->
+                    <input type="text" id="search-bar" autocomplete="off">
+                    <!-- 검색 버튼 -->
+                    <input type="button" id="submit-button" value="검색" style="margin-left: 5px;">
+                </div>
+                <!-- 출금접수 및 취소 버튼 -->
+                <div class="top-info">
+                    <!-- 출금접수하기 버튼 -->
+                    <button class="receive">
+                        <span class="receive-text">접수하기</span>
+                    </button>
+                    <!-- 취소하기 버튼 -->
+                    <button class="cancel">
+                        <span class="cancel-text">취소하기</span>
+                    </button>
+                </div>
+                <!-- 회원 리스트 카테고리  -->
+                <div class="listcategory">
+                    <div width= "50" class="lc-num1"><b>번호</b></div>
+                    <div class="lc-num2"><b>아이디</b></div>
+                    <div width= "200" class="lc-num3"><b>이름</b></div>
+                    <div width= "200" class="lc-num4"><b>환불신청금액</b></div>
+                    <div width= "200" class="lc-num5"><b>은행</b></div>
+                    <div width= "200" class="lc-num6"><b>계좌번호</b></div>
+                    <div width= "200" class="lc-num7"><b>신청일자</b></div>
+                </div>
+                <!-- 리스트 내용 전체 -->
+                <ul class="memberlist">
+                    <li>
+                    <!-- 리스트 개별 내용 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">1</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">50,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용2 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">2</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">30,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용3 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">3</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">10,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용4 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">4</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">5,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용5 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">5</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">100,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용6 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">6</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">100,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용7 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">7</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">100,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                    <li>
+                    <!-- 리스트 개별 내용8 -->
+                        <div class="list">
+                            <!-- 체크박스 -->
+                            <div class="checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <!-- 리스트 번호 -->
+                            <div class="sequence1">8</div>
+                            <!-- 아이디 -->
+                            <div class="mem-id">user01</div>
+                            <!-- 이름  -->
+                            <div class="mem-name">홍길동</div>
+                            <!-- 출금신청금액 -->
+                            <div class="mem-price">100,000원</div>
+                            <!-- 은행 -->
+                            <div class="mem-bank">신한은행</div>
+                            <!-- 계좌번호 -->
+                            <div class="mem-account">123-45-123456</div>
+                            <!-- 신청일자 -->
+                            <div class="mem-date">23.05.08</div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 페이지 숫자 -->
+                <div class="bottom-info">
+                    <div class="before">
+                       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAQAAABqrk9lAAAAGElEQVR42mNgAIPi/8X/4QwwE5PBQJADAAKSG3cyVhtXAAAAAElFTkSuQmCC" alt="이전 페이지로 이동하기 아이콘">
+                    </div>
+                    <div class="page-num">1</div>
+                    <div class="page-num">2</div>
+                    <div class="page-num">3</div>
+                    <div class="page-num">4</div>
+                    <div class="page-num">5</div>
+                    <div class="after">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAQAAABqrk9lAAAAGUlEQVR42mMo/l/8nwECQEwCHEwGhAlRBgA2mht3SwgzrwAAAABJRU5ErkJggg==" alt="다음 페이지로 이동하기 아이콘">
+                    </div>
+                </div>
+            </div>
+</div>
+<!-- footer -->
+<div id="footer">
+
+    <p>사업주 , 전화번호, sns 공유 아이콘 등등</p>
+
+</div>
+
+
+
+</body>
+
+</html>

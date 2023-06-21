@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지_회원 정보 수정</title>
+    <link rel="stylesheet" href="/FrontEnd/css/nibble_main.css">
+    <link rel="stylesheet" href="/css/nibble_myPageInfo.css">
+    
+</head>
+
+<body>
+<!-- 메인페이지 틀 -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>메인 페이지</title>
+        <link rel="stylesheet" href="/css/nibble_main.css" />
+        <link rel="stylesheet" href="">
+      </head>
+      <body>
+        <header></header>
+        <div class="signup">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+        </div>
+        <div class="logoandsearch">
+            <img src="./img/logo.jpg" alt="이미지표시불가" />
+            
+            <div class="search">
+              <input
+                type="text"
+                class="searchTerm"
+                placeholder="검색어를 입력하세요"
+              />
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
+           
+          </div>
+        </div>
+        <div class="headermenu">
+          <ul id="headermenuul">
+            <li id="lis"><a href="#">Home</a></li>
+            <li id="lis"><a href="#">서비스 소개</a></li>
+            <li id="lis"><a href="#">Step</a></li>
+            <li id="lis"><a href="#">Step 후기</a></li>
+            <li id="lis"><a href="#">고객센터</a></li>
+            <li id="lis">마이페이지<a href="./nibble_myPage.html"> </a></li>
+          </ul>
+        </div>
+<!-- 왼쪽 카테고리바 -->
+        <hr class="hrline1">
+        <div id="nav">
+            <div class="div1"></div>
+                <nav>
+                <ul>
+                <h2 class="licategory"><a>마이페이지</a></h2>
+                <li class="licategory">
+                    <a href="./nibble_adminregister.html" class="a1">회원정보수정</a>
+                </li>
+                <li class="licategory">
+                    <a href="./nibble_adminlist.html" class="a1">포인트</a>
+                </li>
+                <li class="licategory">
+                    <a href="./nibble_adminregister.html" class="a1">환불신청</a>
+                </li>
+                <li class="licategory">
+                    <a href="./nibble_adminregister.html" class="a1">신고하기</a>
+                </li>
+                <li class="licategory">
+                    <a href="./nibble_adminregister.html" class="a1">문의하기</a>
+                </li>
+                <li class="licategory">
+                    <a href="./nibble_adminregister.html" class="a1">나의스텝</a>
+                </li>
+                </ul>
+                </nav>
+        </div>
+    
+        <div id="section">
+    <!-- 전체 박스 -->
+    <div class="BigBox">
+        <!-- 개인정보 수정 상단 -->
+        <div class="Inforeset">
+            <div class="Sub1">
+                <h2>개인정보 수정</h2>
+            </div>
+        </div>
+        <!-- 개인정보수정 하단 -->
+        <div class="ButtomBox">
+            <div class="wrap">
+                <br><br><br><br><br><br>
+            <form action="#" class="form">
+                <div class="sub">
+                    <div class="Input_Id">아이디</div>
+                    <div class="InputBox"><input data-testid="input-box" id="userId" name="userId" type="text"
+                            readonly="" class="InputId" value=""></div>
+                </div>
+                <br>
+                <div class="sub">
+                    <div id="Input_password" class="Input">비밀번호</div>
+                    <div class="InputBox"><input data-testid="input-box" id="userId" name="userId" type="text"
+                            readonly="" class="Inputpassword" value=""></div>
+                </div>
+                <br>
+                <div class="sub">
+                    <div class="Input_Name">이름</div>
+                    <div class="InputBox"><input data-testid="input-box" id="userId" name="userId" type="text"
+                            readonly="" class="InputName" id="Input" value=""></div>
+                </div>
+                <br>
+                <div class="sub">
+                    <div class="Input_Email">이메일</div>
+                    <div class="InputBox"><input data-testid="input-box" id="userId" name="userId" type="text"
+                            readonly="" class="InputEmail" value=""></div>
+                    <div class="button_c">
+                        <button class="button">중복 확인</button>
+                    </div>
+                </div>
+                <br>
+                <div class="sub">
+                    <div class="Input_phone">휴대폰</div>
+                    <div class="InputBox"><input data-testid="input-box" id="userId" name="userId" type="text"
+                            readonly="" class="Inputphone" value=""></div>
+                    <div class="button_c">
+                        <button class="button">다른 번호 인증</button>
+                    </div>
+                </div>
+                <br>
+                <div class="ButtomBox_Buttomlast">
+                    <div>
+                        <button class="fixButton">회원정보 수정</button>
+                        <button class="byeButton">탈퇴</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+</div>
+
+
+</body>

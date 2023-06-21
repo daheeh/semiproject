@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객센터</title>
+    <link rel="stylesheet" href="../css/dh_nibb1e_member-info-modify.css">
+    <link rel="stylesheet" href="../css/nibble_main.css" />
+    <link rel="stylesheet" href="./css/divteil.css">
+</head>
+<!-- 헤더 -->
+        <header></header>
+        <div class="signup">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+        <div class="logoandsearch">
+            <a href="./nibble_main.html">
+            <img src="../img/logo.jpg" alt="이미지표시불가" />
+            </a>
+            <div class="search">
+                <input
+                type="text"
+                class="searchTerm"
+                placeholder="검색어를 입력하세요"
+                />
+                <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="headermenu">
+            <ul id="headermenuul">
+                <li id="lis"><a href="#">Home</a></li>
+                <li id="lis"><a href="#">서비스 소개</a></li>
+                <li id="lis"><a href="#">Step</a></li>
+                <li id="lis"><a href="#">Step 후기</a></li>
+                <li id="lis"><a href="./nibble_custommercenter.html">고객센터</a></li>
+            </ul>
+        </div>
+<!-- 헤더 -->
+
+    <hr class="hrline1">
+	<div id="nav">
+        <div class="div1"></div>
+            <nav>
+            <ul>
+            <h2 class="licategory"><a>회원관리</a></h2>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >회원 정보 수정</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >경고 사유 관리</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >회원 인증글 관리</a>
+            </li>
+            <li class="licategory">
+                <a href="./nibble_reportlist.html" class="a1" >블랙 회원 관리</a>
+            </li>
+            </ul>
+            </nav>
+	</div>
+
+	<div id="section">
+<!-- 회원정보수정 상단 -->
+        <h2 class="title">회원 정보 수정</h2>
+<!-- 회원정보수정 상단 끝-->
+<main></main>
+
+    <h3 align="left" style="margin-left: 660px;margin-top:50px;"><b>홍길동</b>님의 회원정보입니다.</h3>
+        <!-- 회원정보수정 메인 -->
+        
+        <div class="main-info">
+            <!-- 입력 폼 영역 --> 
+            <form action="#">
+                <!-- 이름 폼 전체-->
+                <div class="form1">
+                    <div class="form1-name">
+                    <label for="username" class="user-name"><b>이름</b></label>
+                </div>
+                <!-- 입력 상자 -->
+                <div class="form1-box">
+                        <div class="form1-box-1">
+                        <div class="form1-box-2">
+                            <input data-testid="input-box" id="username" name="username" placeholder="이름을 입력해주세요" type="text" readonly class="css-name" value="홍길동">
+                        </div>
+                        </div>   
+                </div>
+                <!-- 뒷 공백 -->
+                <div class="form1-back"></div>
+                </div>
+
+                <!-- 이메일 폼 전체 -->
+                <div class="form2">
+                    <div class="form2-email">
+                    <label for="useremail" class="user-email"><b>이메일</b></label>
+                </div>
+                <!-- 입력 상자 -->
+                <div class="form2-box">
+                        <div class="form2-box-1">
+                        <div class="form2-box-2">
+                            <input data-testid="input-box" id="useremail" name="useremail"  placeholder="이메일을 입력해주세요" type="text" readonly class="css-email" value="gildong@test.com">
+                        </div>
+                        </div>   
+                </div>
+                <!-- 뒷 공백 -->
+                <div class="form2-back"></div>
+                </div>
+
+                <!-- 깃주소 폼 전체 -->
+                <div class="form3">
+                    <div class="form3-gitadd">
+                    <label for="usergitadd" class="user-gitadd"><b>깃 주소</b></label>
+                </div>
+                <!-- 입력 상자 -->
+                <div class="form3-box">
+                        <div class="form3-box-1">
+                        <div class="form3-box-2">
+                            <input data-testid="input-box" id="usergitadd" name="usergitadd"  placeholder="깃 주소를 입력해주세요" type="text" readonly class="css-gitadd" value="https://github.com/daheeh">
+                        </div>
+                        </div>   
+                </div>
+                <!-- 뒷 공백 -->
+                <div class="form3-back"></div>
+                </div>
+
+                <!-- 수정 완료 및 취소 버튼 -->
+                <div class="bottom-info">
+                    <!-- 수정완료하기 버튼 -->
+                    <button class="submit" >
+                        <span class="submit-text">수정하기</span>
+                    </button>
+                    <!-- 취소하기 버튼 -->
+                    <button class="cancel">
+                        <span class="cancel-text">취소하기</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+</div>
+<!-- footer -->
+<div id="footer">
+
+    <p>사업주 , 전화번호, sns 공유 아이콘 등등</p>
+
+</div>
+
+
+
+</body>
+
+</html>
